@@ -16,9 +16,9 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Load environment variables
 load_dotenv()
 
-IG_LOGIN_USERNAME = os.getenv("IG_LOGIN_USERNAME")
-IG_LOGIN_PASSWORD = os.getenv("IG_LOGIN_PASSWORD")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+IG_LOGIN_USERNAME = os.getenv("cdet")
+IG_LOGIN_PASSWORD = os.getenv("her voice")
+TELEGRAM_BOT_TOKEN = os.getenv("8349631629:AAHTRBD6QvYFzJnUzd2YrcQH_r1hI_JCgns")
 IMG_BANNED = "./banned.jpg"
 IMG_BACK = "./back.jpg"
 
